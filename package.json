@@ -1,0 +1,35 @@
+{
+  "name": "lobotomy-corp-bridge",
+  "version": "0.1.0",
+  "description": "A JS client library for the Lobotomy Corp Bridge game mod, enabling realtime control and data exchange with the game.",
+  "keywords": [
+    "lobotomy corporation",
+    "lobotomy corp",
+    "lobocorp",
+    "project moon"
+  ],
+  "homepage": "https://github.com/Hawkbat/lobotomy-corp-bridge",
+  "bugs": {
+    "url": "https://github.com/Hawkbat/lobotomy-corp-bridge/issues"
+  },
+  "author": "Hawkbar",
+  "repository": {
+    "type": "git",
+    "url": "github:Hawkbat/lobotomy-corp-bridge"
+  },
+  "main": "index.js",
+  "types": "index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc -b . ./example",
+    "build:watch": "tsc -b -w . ./example",
+    "generate-docs": "typedoc --out docs .",
+    "serve": "serve ."
+  },
+  "devDependencies": {
+    "serve": "^14.2.4",
+    "typedoc": "^0.27.6",
+    "typescript": "^5.7.2"
+  },
+  "license": "MIT"
+}
