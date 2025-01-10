@@ -47,6 +47,8 @@ bridge.on('message', async (msg) => {
 bridge.connect();
 ```
 
+You can view a full list of supported `BridgeMessage` types and their fields in [the generated type documentation](https://hawk.bar/lobotomy-corp-bridge/).
+
 ### Browser
 
 No additional changes are needed to use this library in client-side browser JS. You will need to target browsers that support ES6 modules if you aren't using a bundler.
@@ -71,7 +73,6 @@ import { Bridge, validateBridgeMessageType } from 'lobotomy-corp-bridge';
 import { randomUUID } from 'node:crypto';
 
 const bridge = new Bridge({
-    webSocketConstructor: WebSocket,
     uuidGenerator: randomUUID,
 });
 ```
