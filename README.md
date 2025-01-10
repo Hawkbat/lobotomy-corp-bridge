@@ -2,7 +2,7 @@
 
 ![Lobotomy Corp Bridge logo](logo.png)
 
-A JS client library for the Lobotomy Corp Bridge game mod, enabling realtime control and data exchange with the game.
+A JS client library for the [Lobotomy Corp Bridge game mod](https://github.com/Hawkbat/LobotomyBridgeMod), enabling realtime control and data exchange with the game.
 
 ## Installation
 
@@ -14,7 +14,7 @@ npm install lobotomy-corp-bridge
 
 ## Usage
 
-The Lobotomy Corporation game instance must be running, with the Lobotomy Corp Bridge mod installed.
+The Lobotomy Corporation game instance must be running, with the [Lobotomy Corp Bridge mod](https://github.com/Hawkbat/LobotomyBridgeMod) installed.
 
 Here is an example of how to use the library:
 
