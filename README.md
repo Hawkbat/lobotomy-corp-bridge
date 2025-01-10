@@ -2,6 +2,9 @@
 
 ![Lobotomy Corp Bridge logo](logo.png)
 
+[![NPM Version](https://img.shields.io/npm/v/lobotomy-corp-bridge)](https://www.npmjs.com/package/lobotomy-corp-bridge)
+[![Mod Version](https://img.shields.io/github/v/release/Hawkbat/LobotomyBridgeMod)](https://github.com/Hawkbat/LobotomyBridgeMod/releases)
+
 A JS client library for the [Lobotomy Corp Bridge game mod](https://github.com/Hawkbat/LobotomyBridgeMod), enabling realtime control and data exchange with the game.
 
 ## Installation
